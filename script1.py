@@ -1,4 +1,4 @@
-from POKE_API1 import get_specific_pokemon
+from poke_api import get_specific_pokemon
 from pastebin_api import post_new_paste
 import sys
 
