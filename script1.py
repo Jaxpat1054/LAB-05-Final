@@ -26,7 +26,7 @@ def get_paste_content(pokemon_ability, search_term):
     title = f'Abilities of "{search_term}" Pokemon'
     body_text = ''
     for ability in pokemon_ability:
-        body_text = f'-{ability}' , pokemon_ability
+        body_text += f"-{ability}" + "\n"
     return title, body_text
  
 
